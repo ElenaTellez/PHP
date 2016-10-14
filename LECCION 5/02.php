@@ -50,7 +50,7 @@ del máximo y del mínimo respectivamente.
       }
     }
   }
-  
+    
   // Pide número y añade el actual a la cadena
   if (($contadorNumeros < 10) || (!isset($n))) {
     ?>
