@@ -32,7 +32,7 @@ cogido de una baraja de verdad.
       
       $puntosCarta = $puntuacion[$figuraCarta]; //cuento los puentos segun la figura que salga
       
-      $nombreCarta = "$figuraCarta de $paloCarta";  // string con figura y palo de cada carta
+      $nombreCarta = "$figuraCarta de $paloCarta";  // variable string con figura y palo de cada carta
       
       if (!in_array($nombreCarta, $cartasEchadas)) { //comprueba que la carta no se repite
           //se trata de un array que contiene otro array
