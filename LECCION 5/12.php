@@ -36,7 +36,7 @@ y cuántas erróneas.
   if (!isset($_GET['espanol'])) {//mientras no esten rellenos los campos del cuestionario no entra php
     echo "Por favor, introduzca la traducción al inglés de las siguientes palabras.<br>";
 
-    // Extrae las palabras españolas
+    // Extrae las palabras españolas y las mete en array palabrasEspañolas
     foreach ($diccionario as $clave => $valor) {
       $palabrasEspanolas[] = $clave;
     }
