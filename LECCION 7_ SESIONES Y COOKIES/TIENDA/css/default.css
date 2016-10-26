@@ -1,0 +1,95 @@
+body  {
+    background-image: url("/imag/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: blueviolet;
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+
+#encabezado {
+    border-radius: 25%;
+    width: 500px;
+    height: 200px;
+    padding: 25px;
+    margin:40px 40px 40px 100px;
+    background-color: #F2F2F2;
+    float: left;
+    border: solid 5px;
+    background-image: url("/imag/banco.jpg");
+}
+
+#logo {
+    border-radius: 25%;
+    margin:40px 40px 40px 100px;
+    padding: 25px;
+    width: 400px;
+    height: 200px;
+    background-color: #cccccc;
+    float: left;
+    border: solid 5px;
+}
+
+.detalle  {
+    
+    text-align: justify;
+    margin: 30px 30px 0px 30px;
+    padding: 30px;
+    width: 400px;
+    font-size: 2 em;
+    display: block;
+    float: left;
+    background-color: #cccccc;
+   
+}
+
+#productos  {
+    margin: 0px 30px 0px 30px;
+    padding: 30px;
+    text-align: center;
+    width: 1200px;
+    display: block;
+    float: left;
+    background-color: #cccccc;
+    border-radius: 15%;
+    border: solid 5px;
+}
+
+
+
+#compra  {
+    margin: 30px 30px 0px 30px;
+    padding: 30px;
+    text-align: center;
+    display: block;
+    float: left;
+    background-color: #cccccc;
+    border-radius: 25%;
+    overflow: auto;
+    font-size: 80%;
+    border: solid 5px;
+}
+
+.pro {
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    width: 110px;
+    background-color: #F2F2F2;
+    display: block;
+    float: left;
+    font-size: 80%;
+}
+
+.carr {
+    border-radius: 10%;
+    padding: 15px;
+    margin: 15px;
+    background-color: #F2F2F2;
+    float: left;
+}
