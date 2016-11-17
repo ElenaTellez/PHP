@@ -1,0 +1,161 @@
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Lobster);
+
+body {
+    background-color: beige;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+#encabezado{
+    width: 2000px;
+    height: 300px;
+    margin: auto;
+}
+
+#header {
+    width: 1400px;
+    height: 300px;
+    text-align: center;
+    background: #4da6ff;
+    border-radius:24px;
+    border-style: groove;
+    float: left;
+}
+
+#header img {
+    width: 200px;
+    height: 180px;
+    margin-top: 25px;
+    border-style: groove;
+}
+
+.menu {
+    width: 1900px;
+    height: 300px;
+}
+
+.menu ul {
+    list-style-type:none;
+    list-style-image:none;
+    margin: 10px;
+    padding:0;
+    display: flex;
+    flex-direction:row; /*por defecto es row horizontal y no column que es vertical*/	 
+}
+
+.menu ul li{
+    flex-grow:1; /*separa los elementos de la lista*/
+}	
+
+.menu ul li a{
+    background-color: #4da6ff;
+    color:#ffffe6;
+    font-weight: bold;
+    display:block;/*este elemento se comporta en linea y quiero que lo haga en bloque para usar el ancho del contedor*/
+    margin-right:1px;
+    text-align:center;
+    text-decoration:none;
+    padding:0.4em; /*50% del tamaño del body*/
+    border-radius: 24px; 
+    border-style: groove;
+    cursor: pointer;
+}
+
+div .menu ul li a:hover {
+    background-color:red;
+} 
+
+a:link {   
+    text-decoration:none;   
+}        
+
+.login {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: #4da6ff;
+    border-radius:24px;
+    border-style: groove;
+    float: left;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+table {
+    font-size: 0.8em;    
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+    margin: 0 auto;
+    text-align: center;      
+}
+
+tr td#libre{        
+    background:transparent;
+    border:none;   
+    color: cornflowerblue;
+    text-shadow:1px 1px 1px black;
+}
+
+th{
+    padding:10px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border: 2px solid #E7EFE0;
+    border-bottom:3px solid #9ED929;
+    background-color:red;  
+    border-radius:24px;
+    text-align: center;
+
+}
+
+thead th:empty{
+    background:transparent;
+    border:none;
+}
+
+td{
+    padding:7px;
+    text-align:center;
+    background-color:background;
+    border: 2px solid #E7EFE0;
+    border-radius:24px;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;     
+    color:whitesmoke;
+    text-shadow:1px 1px 1px black; 
+}
+
+img.container {
+    width:100px;
+    height: 100px;
+}
+
+#contenido{
+    width: 2000px;
+    height: 2000px;
+    margin: auto;
+}
+
+
+.contenido {
+    background-color: #4da6ff;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 24px;
+    border-style: groove;
+}   
+
+
+.boton {
+    background-color:rgb;
+    color: cornflowerblue;
+    text-shadow:1px 1px 1px black;
+}   
+
+
+
